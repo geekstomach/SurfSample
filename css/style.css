@@ -1,0 +1,118 @@
+/*-----header-----*/
+.header_background {
+    /*background: url("../images/indexBack.jpg");
+    background-size: cover;*/
+    height: 700px;
+    background-color: #abeafa;
+}
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#logo {
+    margin: 20px 0 0 20px;
+}
+
+.social_network ul {
+    text-align: right;
+    list-style-type: none;
+    margin-right: 30px;
+    position: absolute;
+    right: 35px;
+    top: 30px;
+}
+
+.social_network ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social_network ul li a img {
+    height: 20px;
+}
+
+.welcome_board {
+    display: inline-block;
+    float: left;
+    height: 300px;
+    width: 270px;
+    background-color: #fff51f;
+    padding: 80px 25px 0 25px;
+    box-sizing: border-box; /*позволяет значения padding и border вычитать из ширины и длины блока*/
+}
+
+.welcome_board h3 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.welcome_board p {
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.right_top_board {
+    display: inline-block;
+    float: right;
+    height: 300px;
+    width: 270px;
+    color: #fff51f;
+    padding: 80px 25px 0 25px;
+    box-sizing: border-box;
+}
+
+.right_top_board h3 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.right_top_board p {
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+/*-----container-----*/
+.container {
+    margin-top: -20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    width: 270px;
+    height: 66px;
+}
+
+.menu_header {
+    background-color: #333333;
+    color: white;
+    height: 66px;
+    line-height: 66px;
+}
+
+.menu_header a {
+    padding-left: 40px;
+}
+
+.menu_button {
+    background-color: #26d2fc;
+    color: black;
+    height: 44px;
+    line-height: 44px;
+
+}
+.menu_button{
+    padding-left: 60px;
+}
+.menu_button:hover {
+    background-color: #333333;
+    color: white;
+}
